@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Big Shoulders Text', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  text-align: center;  
+}
+#header_container {       
+    margin: 20px 10%;
+}
+#header_span {
+    color: rgb(139, 133, 125);
+}
