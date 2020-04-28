@@ -55,3 +55,27 @@ body {
     background-color: #fff;
     margin: 5px 0;    
 }
+
+.header-content__title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 96px;
+    line-height: 112px;
+    margin-bottom: 40px;
+}
+
+.header-content__text {
+    width: 284px;
+    margin-bottom: 25px;
+}
+
+.header-content__btn {
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 30px 62px;
+    background: rgba(255, 255, 255, 0.15);
+    transition: all .5s;
+}
+
+.header-content__btn:hover {
+    background-color: #770302;;
+}
