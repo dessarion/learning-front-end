@@ -18,6 +18,11 @@ body {
 }
 .header {
     height: 100vh;
+    position: absolute;
+    z-index: 5;
+    background: rgba(0, 0, 0, 0.3);
+    left: 0;
+    right: 0;
 }
 
 .container {
@@ -78,4 +83,11 @@ body {
 
 .header-content__btn:hover {
     background-color: #770302;;
+}
+
+.slider__item {
+ height: 100vh; 
+ background-repeat: no-repeat; 
+ background-size: cover; 
+ background-position: center;
 }
