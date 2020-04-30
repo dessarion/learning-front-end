@@ -116,5 +116,46 @@ body {
     position: relative;
     margin: -55px auto 0;
     z-index: 6;
-    max-width: 1215px;    
+    max-width: 1200px;    
+}
+.statistics {
+    margin: 160px 0 100px;
+}
+
+.statistics-items {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.statistics-item__title{
+    margin-bottom: 19px;
+}
+
+.statistics-item__num{
+    font-size: 96px;
+    line-height: 112px;
+    margin-bottom: 7px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.statistics-item__num span{
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: -20px;
+}
+
+.statistics-item__descr{
+    color: #B70021;
+}
+
+.statistics-item__num--speed span{
+    display: inline-block;
+    position: relative;
+}
+
+.statistics-item__num--speed span::before {
+    content: '+';
+    position: absolute;
+    top: -60px; 
 }
