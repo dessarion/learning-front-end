@@ -73,7 +73,7 @@ body {
     margin-bottom: 25px;
 }
 
-.header-content__btn {
+.button {
     display: inline-block;
     border: 1px solid #fff;
     padding: 30px 62px;
@@ -81,7 +81,7 @@ body {
     transition: all .5s;
 }
 
-.header-content__btn:hover {
+.button:hover {
     background-color: #770302;;
 }
 
@@ -202,6 +202,7 @@ body {
 .design-row{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 99px;
 }
 
 .design-row__item{
@@ -218,4 +219,31 @@ body {
 .desighn-row__item-text{
     max-width: 430px;
     padding-top: 25px;
+}
+
+.footer{
+    background-color: #690102;
+    padding: 83px 0 20px;
+}
+
+.footer-btn{
+    text-align: center;
+    margin-bottom: 83px;
+}
+
+.footer-copy{
+    text-align: center;
+    font-weight: 700;
+}
+
+.footer-copy li{
+    display: inline-block;
+    padding: 0 10px;
+    position: relative;
+}
+
+.footer-copy li + li::before{
+    content: '|';
+    position: absolute;
+    left: -6px;
 }
