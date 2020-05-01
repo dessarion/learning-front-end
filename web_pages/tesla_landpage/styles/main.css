@@ -85,6 +85,70 @@ body {
     background-color: #770302;;
 }
 
+.menu{
+    background-color: #000;
+    position: absolute;
+    top: 0;    
+    width: 100%;
+    left: -100%;
+}
+
+.container-menu{
+    position: relative;
+}
+
+.close-btn{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 0;    
+    top: 31px;
+    cursor: pointer;
+}
+
+.close-btn::after,
+.close-btn::before{
+    content: '';
+    width: 70px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    transform-origin: left;
+}
+
+.close-btn::after{
+    transform: rotate(45deg);
+}
+
+.close-btn::before{
+    transform: rotate(-45deg);
+    bottom: -1px;
+}
+
+.menu__list{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu__list a{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    padding: 30px 25px 14px 0;
+    border-bottom: 3px solid #B70021;
+    display: inline-block;
+    min-width: 368px;
+    transition: all .7s;    
+}
+
+.menu__list a:hover{
+    border-color: #fff;
+    color: #B70021;
+    transform: scale(1.2);
+    margin-left: 30px;
+}
+
 .slider__item {
  height: 100vh; 
  background-repeat: no-repeat; 
