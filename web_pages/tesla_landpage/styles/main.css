@@ -91,6 +91,12 @@ body {
     top: 0;    
     width: 100%;
     left: -100%;
+    transition: all 0.4s;
+    z-index: 7;
+}
+
+.menu.active{
+    left: 0;
 }
 
 .container-menu{
@@ -101,7 +107,7 @@ body {
     height: 50px;
     width: 50px;
     position: absolute;
-    right: 0;    
+    right: 15px;    
     top: 31px;
     cursor: pointer;
 }
@@ -167,6 +173,7 @@ body {
     cursor: pointer;
     outline: none;
 }
+
 .slider .slick-dots .slick-active button {
     background-color: #fff;
 }
