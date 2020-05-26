@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main-display{
+    width: 400px;
+    height: 400px;
+    margin: 50px auto 0 auto;
+    border: 3px double gray;
+    border-radius: 50%;
+    position: relative;
+}
+.seconts-arrow{
+    width: 1px;
+    height: 180px;
+    background-color: black;
+    position: absolute;    
+    transform: translateX(197px) translateY(197px);    
+    transform-origin: 197px 197px;
+}
+.minutes-arrow{
+    width: 3px;
+    height: 150px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;    
+    transform: translateX(197px) translateY(197px);    
+    transform-origin: 197px 197px;
+}
+.hours-arrow{
+    width: 5px;
+    height: 120px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;    
+    transform: translateX(197px) translateY(197px);    
+    transform-origin: 197px 197px;
+}
+.center{
+    width: 16px;
+    height: 16px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 189px; 
+    right: 189px ; 
+}
