@@ -15,7 +15,7 @@ BTN.onclick = () => {
         input.classList.add('error');
         screenArea.classList.add('error') 
     }else if(!playerNumber){
-        screenArea.innerHTML = '<h3>Fied is empty</h3>';
+        screenArea.innerHTML = '<h3>Field is empty</h3>';
         input.focus();
         input.classList.add('error');
         screenArea.classList.add('error');
