@@ -1,0 +1,23 @@
+{
+  "name": "learning_node_js",
+  "version": "1.0.0",
+  "description": "learning node js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server_practice.js",
+    "dev": "nodemon server_practice.js"
+  },
+  "keywords": [
+    "node",
+    "nodejs"
+  ],
+  "author": "Bumbak Maxim <dessuas@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0" 
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
+
